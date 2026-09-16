@@ -1,0 +1,4 @@
+install any required dependencies and any stuff that are required for
+  this project to work correctly 
+if any stuff are missing
+please write a comment 
