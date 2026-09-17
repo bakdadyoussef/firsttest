@@ -1,0 +1,249 @@
+Type,Hit points,Damage, Miss Arm,Blade Arm,Imp Arm,Walk ,Run,Points,Gold Cost,Honour Cost,Rank,Wood cost,Stone cost,Pitch cost,Glory  cost,Destroyed Hps
+
+TYPE_TROOPS,,,,,,,,,,,,,,,,
+Spearman,3000,6,1,1,1,2,4,6,6,,Knight,,,,,
+Archer,3000,2,1,2,2,2,5,8,12,,Knight,,,,,
+Crossbowman,6000,2,0.5,1.2,1.2,1.5,2.5,12,12,,baron,,,,,
+Pikeman,18000,4,0.5,0.15,0.15,1.5,2.5,12,10,,champion,,,,,
+Maceman,6000,15,0.75,0.5,0.5,3,8,12,10,,duke,,,,,
+Swordsman,15000,20,0.1,0.25,0.25,1,2,20,40,5,earl,,,,,
+Knight,20000,70,0.06,0.2,0.2,1,2,100,200,50,king,,,,,
+Lord,25000,100,0.04,0.2,0.2,1,2,150,,,,,,,,
+
+Engineer,2000,1,1,1,1,2,4,1,30,,champion,,,,,
+Ladderman,1500,1,1,1,1,2,6,1,4,,Knight,,,,,
+
+LightCavalry,2000,8,0.33,1,1,4,7,10,40,,king,,,,,
+Outlaw,4000,10,1,1,1,2,4,14,60,,king
+BoatWarrior,3000,8,1,1,1,1.5,2.5,6,30,,king
+
+Merlin,12000,10,0.5,1,1,1,2.5,150,0,200,duke
+Arthur,25000,100,0.04,0.2,0.2,1,2,150,,,king
+Lancelot,20000,70,0.06,0.2,0.2,1,2,150,500,125,champion
+Bedivere,20000,70,0.06,0.2,0.2,1,2,150,500,125,prince
+Percivale,20000,70,0.06,0.2,0.2,1,2,150,500,200,prince
+Galahad,20000,70,0.06,0.2,0.2,1,2,150,500,150,baron
+Bors,20000,70,0.06,0.2,0.2,1,2,150,500,100,earl
+Gareth,20000,70,0.06,0.2,0.2,1,2,150,500,100,earl
+Gawain,20000,70,0.06,0.2,0.2,1,2,150,500,100,earl
+GoodDragon,30000,50,0.05,0.25,0.25,3,6,150,1000,250,king
+
+Vlad,25000,100,0.04,0.2,0.2,1,2,150,,,king
+Demon,4000,4,1,1,1,3,5,12,5,4,prince
+SaxonWarrior,10000,10,0.5,0.5,0.5,2,4,14,30,8,earl
+SaxonWarlord,12000,12,0.5,0.5,0.5,2,4,15,30,8,king
+BlackDog,5000,9,1,1,1,3,9,8,15,4,champion
+Crawler,6000,30,0.01,1,1,2,4,40,200,75,prince
+Werewolf,15000,25,1,1,1,3,8,15,50,10,earl
+BlackDragon,25000,50,0.05,0.25,0.25,3,6,150,750,250,king
+GiantDemonicBat,10000,5,0.75,0.75,0.75,3,6,12,150,15,baron
+Sorcerer,10000,10,0.5,1,1,1.5,2.5,100,400,100,duke
+
+
+Dietrich,25000,100,0.04,0.2,0.2,1.5,2.5,150,,,king
+Hilderbrund,25000,100,0.04,0.2,0.2,1.5,2.5,150,,,king
+Siegfried,25000,100,0.04,0.2,0.2,1.5,2.5,150,,,king
+IceMaiden,10000,10,0.3,0.5,0.5,2,4,14,50,10,earl
+PolarBear,20000,30,0.25,0.4,0.4,1.5,3,40,100,20,earl
+WhiteWolf,4000,8,1,1,1,3,9,8,15,5,champion
+FrostGiant,40000,60,0.1,0.5,0.5,3,6,100,200,100,prince
+Dwarf,6000,8,0.25,0.25,0.25,1.5,2.5,15,80,5,prince
+IceQueen,20000,10,0.5,1,1,1.5,2.5,100,500,200,duke
+WhiteWitch,4000,6,1,1,1,2.5,5,10,25,10,baron
+WhiteDragon,30000,50,0.05,0.25,0.25,3,6,150,1000,250,king
+
+
+TYPE_SIEGEKIT,,,,,,,,,,,
+
+Ballista,1000,0,0.5,1,1,0,0,0,100,,prince
+BatteringRam,10000,0,0.05,1,1,1,0.5,0,150,,earl
+Cat,6000,0,0.05,1,1,1,1,0,100,,prince
+Catapult,1000,0,0.04,1,1,2,1,0,200,,duke
+FireBallista,1000,0,0.07,1,1,2,1,0,150,,prince
+Mangonel,1000,0,0.5,1,1,0,0,0,200,,earl
+SiegeTowerSmall,30000,0,0.07,1,1,1.5,0.5,0,150,,baron
+Trebuchet,500,0,0.02,1,1,2.5,2,0,500,,king
+BurningCart,500,0,0.2,1,1,3,2.5,0,70,,baron
+Mantlet,3000,0,0.08,1,1,2.5,5,0,10,,baron
+StakeHurler,2000,0,0.04,1,1,2,2,0,250,,duke
+DragonHarpoon,1000,0,0.5,1,1,0,0,0,250,,baron
+WerewolfLauncher,1000,0,0.02,1,1,2,2,0,100,,earl
+InfernalBalls,1000,0,0.04,1,1,2,2,0,200,,king
+
+
+TYPE_WALLMOUNTED,,,,,,,,,,,
+
+BurningLogTipper,1000,0,0.25,1,1,0,0,0,200,,duke
+BlackDrake,1000,0,0.25,1,1,0,0,0,100,,king
+IceMirror,1000,0,0.25,1,1,0,0,0,200,,king
+OilTipper,1000,0,0.25,1,1,0,0,0,200,,king
+Brazier,1000,0,0.25,1,1,0,0,0,50,,baron
+
+TYPE_PEASANTS,,,,,,,,,,,
+
+DEFAULT PEASANT,1000,0,1,1,1,1,2,0,,,village idiot
+
+Peasant,1000,1.5,1,1,1,1,2,0,,,village idiot
+
+
+Blacksmith,2000,2,1,1,1,1,2,0,,,village idiot
+IronMiner,2000,2,1,1,1,1,2,0,,,village idiot
+StoneMason,2000,2,1,1,1,1,2,0,,,village idiot
+Tanner,2000,5,1,1,1,1,2,0,,,village idiot
+WoodCutter,2000,5,1,1,1,1,2,0,,,village idiot
+WellWorker,1000,0,1,1,1,3,8,0,,,village idiot
+
+
+CarterCart,2500,0,1,1,1,2,2,0,,,village idiot,,
+Oxen,500,0,1,1,1,1.5,1.5,0,,,village idiot,,
+Cow,500,0,1,1,1,1,3,0,,,village idiot,,
+Horse,800,0,1,1,1,4,8,0,,,village idiot,,
+Chicken,100,0,1,1,1,1,3,0,,,village idiot,,
+Pig,200,0,1,1,1,2,4,0,,,village idiot,,
+Wolf,1200,6,0.5,1,1,2,7,0,,,village idiot,,
+
+EmplacedDragon,0,,,,,,,,,,,,
+LightCavalryHorse,0,,,,,,,,,,,,
+
+
+TYPE_BUILDINGS,,,,,,,,,,,,,
+
+Wall,,,,,,,,,,,Knight,,1
+TowerStairwell,5000,,,,,,,,,,Knight,,8
+TowerArthur1,20000,,short,,,,,,,,champion,,40,,,2000
+TowerArthur2,30000,,tall,,,,,,,,baron,,80,,,2000
+TowerArthur3,40000,,fat,,,,,,,,baron,,120,,,2000
+TowerIce1,20000,,short,,,,,,,,champion,,40,,,2000
+TowerIce2,30000,,tall,,,,,,,,baron,,80,,,2000
+TowerIce3,40000,,fat,,,,,,,,baron,,120,,,2000
+TowerEvil1,20000,,short,,,,,,,,champion,,40,,,2000
+TowerEvil2,30000,,tall,,,,,,,,baron,,80,,,2000
+TowerEvil3,40000,,fat,,,,,,,,baron,,120,,,2000
+ArthurGateHouse,45000,,,,,,,,,,Knight,,40,,,
+IceGateHouse,45000,,,,,,,,,,Knight,,40,,,
+EvilGateHouse,45000,,,,,,,,,,Knight,,40,,,
+
+Flags,,,,,,,,,,,,,,,,
+
+
+Defense buildings,,,,,,,,,,,,,,
+
+StoneBarracks,10000,,,,,,,,,,Knight,,20,
+IceBuilding,10000,,,,,,,,,100,champion,,50,
+SorcerersTower,10000,,,,,,,,,100,champion,,50,
+Roundtable,10000,,,,,,,,,100,champion,,50,
+Armoury,40000,,,,,,,,,,Knight,,20,
+MasonsGuild,10000,,,,,,,,100,,champion,,20,
+SiegeCamp,10000,,,,,,,,500,,Knight,,,
+ManTrap,0,,,,,,,,1,,baron,10,,
+KillingPit,0,,,,,,,,2,,prince,40,,
+Moat,0,,,,,,,,10,,king,,,
+Pitch ditch,0,,,,,,,,,,baron,,,1
+MagicGarden,1000,,,,,,,,,50,king,,,
+IceTunnel,10000,,,,,,,,250,,earl,,,
+DispelBomb,2000,,,,,,,,,100,earl,,,
+
+
+
+
+town buildings,,,,,,,,,,,,,,,
+
+
+Hovel,1000,,,,,,,,,,village idiot,25,,,
+Church,15000,,,,,,,,500,,champion,,100,,
+Statue,3000,,,,,,,,,,baron,,,,100
+Well,1000,,,,,,,,,,champion,20,,,
+
+
+
+
+Food and drink buildings,,,,,,,,,,,,,,,
+
+Granary,6000,,,,,,,,,,village idiot,
+Kitchen,6000,,,,,,,,,,serf,
+ChickenFarm,1000,,,,,,,,,,village idiot,20
+AppleFarm,1000,,,,,,,,,,village idiot,20
+DairyFarm,1000,,,,,,,,,,village idiot,15
+WheatFarm,1000,,,,,,,,,,squire,25
+SealHoles,1000,,,,,,,,,,village idiot,25
+HopFarm,1000,,,,,,,,,,duke,25
+PigFarm,1000,,,,,,,,,,serf,20
+GardenersHut,1000,,,,,,,,,,serf,30
+EelFarm,1000,,,,,,,,,,serf,50
+Mill,2000,,,,,,,,,,squire,100
+Bakery,2000,,,,,,,,,,squire,50
+Vineyard,2000,,,,,,,,,,serf,40
+Brewery,2000,,,,,,,,,,duke,50
+Inn,2000,,,,,,,,,,duke,200
+Market,2000,,,,,,,,,,prince,200
+
+Industry Buildings,,,,,,,,,,,,
+
+StockPile,0,,,,,,,,500,,village idiot,
+Woodcamp,1000,,,,,,,,,,village idiot,20
+StoneQuarry,3000,,,,,,,,,,serf,50
+IronMine,3000,,,,,,,,,,squire,50
+OxTether,500,,,,,,,,,,serf,15
+PitchRig,1000,,,,,,,,,,baron,40
+BeeHive,500,,,,,,,,,,Knight,10
+ChandlerWorkshop,2000,,,,,,,,,,champion,50
+
+CarterPost,2000,,,,,,,,,,baron,100
+
+PoleturnerWorkshop,2000,,,,,,,,50,,Knight,50
+FletcherWorkshop,2000,,,,,,,,150,,Knight,50
+BlacksmithWorkshop,2000,,,,,,,,200,,earl,50
+TannerWorkshop,2000,,,,,,,,50,,baron,50
+ArmourerWorkshop,2000,,,,,,,,100,,champion,50
+
+
+
+
+Non player built structures,,,,,,,,,,,,
+
+BridgeX,0,,,,,,,,,,,
+RuinsX,3000,,,,,,,,,,,
+Signpost,0,,,,,,,,,,,
+Ladder,1500,,,,,,,,,,,
+Docked siege towerX,12000,,,,,,,,,,,
+
+Village centresX,0,
+KeepsX,0,
+stone circleX,,
+
+OutlawCamp,20000,
+WerewolfCamp,20000,
+DragonEmplacement,200000,
+
+
+
+TYPE_TRADEDGOODS,,
+
+
+Traded goods,Sell,Buy
+
+RESOURCE_WEAPON_BOW,"15,","30,"
+RESOURCE_WEAPON_CROSSBOW,"15,","30,"
+RESOURCE_WEAPON_SWORD,"42,","48,"
+RESOURCE_WEAPON_MACE,"42,","44,"
+RESOURCE_WEAPON_PIKE,"18,","20,"
+RESOURCE_WEAPON_SPEAR,"10,","15,"
+RESOURCE_WEAPON_ARMOUR,"44,","50,"
+RESOURCE_WEAPON_LEATHER,"12,","15,"
+RESOURCE_PLANKS,"1,","2,"
+RESOURCE_STONE,"2,","3,"
+RESOURCE_IRON,"40,","50,"
+RESOURCE_WHEAT,"8,","23,"
+RESOURCE_FLOUR,"10,","32,"
+RESOURCE_HOPS,"8,","15,"
+RESOURCE_ALE,"10,","20,"
+RESOURCE_PITCH,"8,","16,"
+RESOURCE_APPLES,"4,","8,"
+RESOURCE_BREAD,"4,","8,"
+RESOURCE_CHEESE,"4,","8,"
+RESOURCE_MEAT,"4,","8,"
+RESOURCE_EELS,"4,","8,"
+RESOURCE_PIG,"4,","8,"
+RESOURCE_VEGETABLES,"4,","8,"
+RESOURCE_WINE,"4,","8,"
+RESOURCE_CANDLES,"4,","8,"
