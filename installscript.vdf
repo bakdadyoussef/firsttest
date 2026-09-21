@@ -1,0 +1,50 @@
+"installscript"
+{
+	"Registry"
+	{
+		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Bethesda Softworks\\Skyrim"
+		{
+			"string"
+			{
+				"Installed Path"		"%INSTALLDIR%\\"
+			}
+		}
+	}
+	"Run Process"
+	{
+		"DXSetup"
+		{
+			"HasRunKey"		"HKEY_lOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\72850"
+			"process 1"		"%INSTALLDIR%\\DirectX10\\DXSETUP.exe"
+			"command 1"		"/silent"
+			"NoCleanUp"		"1"
+		}
+		"VCRedist"
+		{
+			"HasRunKey"		"HKEY_lOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\72850"
+			"process 1"		"%INSTALLDIR%\\VCRedist\\vcredist_x86.exe"
+			"command 1"		"/q /norestart"
+			"NoCleanUp"		"1"
+		}
+		"DotNetFX351"
+		{
+			"HasRunKey"		"HKEY_lOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\72850"
+			"process 1"		"%INSTALLDIR%\\DotNetFX\\dotnetfx35setup.exe"
+			"command 1"		"/q /norestart"
+			"NoCleanUp"		"1"
+			"IgnoreExitCode"		"1"
+		}
+	}
+	"Copy Folders"
+	{
+		"Skyrim"
+		{
+			"SrcFolder 1"		"%INSTALLDIR%\\Skyrim"
+			"DstFolder 1"		"%USER_MYDOCS%\\My Games\\Skyrim"
+		}
+	}
+}
+"kvsignatures"
+{
+	"installscript"		"04ab0c8f7a59c079cb7f1c6868ea35291771b062d5a08dff27aee100e2beec357dbe16bd8c131a05c6f5dfdef5f51192e9e82faaee47120927319b9b6eddbab23b00ec91bf563b0666d569223e260d2e3c29c902553834866c9824fad70d165d244885fc5c536936c9d43f5192bfdc7a1debde51235ad5dc5245f6ae0119f704"
+}
