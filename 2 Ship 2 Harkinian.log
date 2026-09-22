@@ -1,0 +1,364 @@
+[2025-08-05 05:16:09.411] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: K:\2Ship-Rena-Alfa-Win64\mm.o2r
+[2025-08-05 05:16:09.970] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive K:\2Ship-Rena-Alfa-Win64\mm.o2r to Archive Manager
+[2025-08-05 05:16:10.085] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: K:\2Ship-Rena-Alfa-Win64\2ship.o2r
+[2025-08-05 05:16:10.096] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive K:\2Ship-Rena-Alfa-Win64\2ship.o2r to Archive Manager
+[05:16:10.518] [BenPort.cpp:209] [info] Starting 2 Ship 2 Harkinian version Rena Alfa (2.0.0) (Branch:  | Commit: 5139d60)
+[05:16:10.838] [os.cpp:21] [info] Added SDL game controllers from "./gamecontrollerdb.txt" (838)
+[05:16:14.065] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 7168, cutsceneIndex: 0xFFFA
+[05:16:37.543] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0xFFF2
+[05:17:06.178] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 48128, cutsceneIndex: 0xFFF0
+[05:17:25.898] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 7168, cutsceneIndex: 0x0
+[05:18:07.639] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 50176, cutsceneIndex: 0xFFF0
+[05:20:17.449] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 50176, cutsceneIndex: 0x0
+[05:22:49.313] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 11776, cutsceneIndex: 0x0
+[05:23:44.823] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 7168, cutsceneIndex: 0xFFF1
+[05:24:12.858] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 11808, cutsceneIndex: 0x0
+[05:42:16.292] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 49152, cutsceneIndex: 0x0
+[05:45:01.505] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[05:45:04.141] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[05:45:39.365] [Fast3dWindow.cpp:47] [debug] destruct fast3dwindow
+[05:45:39.580] [Window.cpp:30] [debug] destruct window
+[05:45:39.585] [ResourceManager.cpp:65] [info] destruct ResourceManager
+[2025-08-05 05:45:46.251] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: K:\2Ship-Rena-Alfa-Win64\mm.o2r
+[2025-08-05 05:45:46.707] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive K:\2Ship-Rena-Alfa-Win64\mm.o2r to Archive Manager
+[2025-08-05 05:45:46.764] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: K:\2Ship-Rena-Alfa-Win64\2ship.o2r
+[2025-08-05 05:45:46.771] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive K:\2Ship-Rena-Alfa-Win64\2ship.o2r to Archive Manager
+[2025-08-05 05:45:46.772] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: K:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r
+[2025-08-05 05:45:46.855] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive K:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r to Archive Manager
+[05:45:47.238] [BenPort.cpp:209] [info] Starting 2 Ship 2 Harkinian version Rena Alfa (2.0.0) (Branch:  | Commit: 5139d60)
+[05:45:47.758] [os.cpp:21] [info] Added SDL game controllers from "./gamecontrollerdb.txt" (838)
+[05:45:53.708] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[05:45:58.276] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[05:48:19.259] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 53776, cutsceneIndex: 0x0
+[05:48:33.384] [Fast3dWindow.cpp:47] [debug] destruct fast3dwindow
+[05:48:33.625] [Window.cpp:30] [debug] destruct window
+[05:48:33.625] [ResourceManager.cpp:65] [info] destruct ResourceManager
+[2025-08-05 17:18:39.877] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: K:\2Ship-Rena-Alfa-Win64\mm.o2r
+[2025-08-05 17:18:40.339] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive K:\2Ship-Rena-Alfa-Win64\mm.o2r to Archive Manager
+[2025-08-05 17:18:40.395] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: K:\2Ship-Rena-Alfa-Win64\2ship.o2r
+[2025-08-05 17:18:40.403] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive K:\2Ship-Rena-Alfa-Win64\2ship.o2r to Archive Manager
+[2025-08-05 17:18:40.404] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: K:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r
+[2025-08-05 17:18:40.517] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive K:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r to Archive Manager
+[17:18:41.281] [BenPort.cpp:209] [info] Starting 2 Ship 2 Harkinian version Rena Alfa (2.0.0) (Branch:  | Commit: 5139d60)
+[17:18:42.235] [os.cpp:21] [info] Added SDL game controllers from "./gamecontrollerdb.txt" (838)
+[17:18:49.009] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[17:18:54.118] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[17:19:15.043] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 53776, cutsceneIndex: 0x0
+[17:19:40.308] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 54800, cutsceneIndex: 0x0
+[17:19:51.628] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55360, cutsceneIndex: 0x0
+[17:20:38.369] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 54304, cutsceneIndex: 0x0
+[17:20:54.072] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55376, cutsceneIndex: 0x0
+[17:21:06.324] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55808, cutsceneIndex: 0x0
+[17:21:33.351] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55392, cutsceneIndex: 0x0
+[17:21:41.952] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 53776, cutsceneIndex: 0x0
+[17:21:54.662] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 54800, cutsceneIndex: 0x0
+[17:22:07.014] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 17920, cutsceneIndex: 0x0
+[17:22:26.135] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 54832, cutsceneIndex: 0x0
+[17:22:52.179] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 54880, cutsceneIndex: 0x0
+[17:23:35.609] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 53840, cutsceneIndex: 0x0
+[17:27:00.938] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55408, cutsceneIndex: 0x0
+[17:27:13.502] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 54304, cutsceneIndex: 0x0
+[17:27:21.305] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 54864, cutsceneIndex: 0x0
+[17:28:28.253] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 54880, cutsceneIndex: 0x0
+[17:28:36.907] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 53840, cutsceneIndex: 0x0
+[17:29:04.799] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 19456, cutsceneIndex: 0x0
+[17:30:18.370] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21648, cutsceneIndex: 0xFFF4
+[17:30:42.657] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 19472, cutsceneIndex: 0x0
+[17:31:36.156] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 53792, cutsceneIndex: 0x0
+[17:31:55.000] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55408, cutsceneIndex: 0x0
+[17:34:57.151] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[17:46:01.763] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[19:22:21.864] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0xFFF1
+[19:22:32.566] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 11264, cutsceneIndex: 0x0
+[19:24:38.111] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 7184, cutsceneIndex: 0xFFF7
+[19:24:53.306] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 50192, cutsceneIndex: 0x0
+[19:24:55.679] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[19:25:19.235] [Fast3dWindow.cpp:47] [debug] destruct fast3dwindow
+[19:25:19.581] [Window.cpp:30] [debug] destruct window
+[19:25:19.581] [ResourceManager.cpp:65] [info] destruct ResourceManager
+[2025-08-06 17:52:20.248] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: K:\2Ship-Rena-Alfa-Win64\mm.o2r
+[2025-08-06 17:52:20.703] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive K:\2Ship-Rena-Alfa-Win64\mm.o2r to Archive Manager
+[2025-08-06 17:52:20.758] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: K:\2Ship-Rena-Alfa-Win64\2ship.o2r
+[2025-08-06 17:52:20.766] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive K:\2Ship-Rena-Alfa-Win64\2ship.o2r to Archive Manager
+[2025-08-06 17:52:20.767] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: K:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r
+[2025-08-06 17:52:20.850] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive K:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r to Archive Manager
+[17:52:21.251] [BenPort.cpp:209] [info] Starting 2 Ship 2 Harkinian version Rena Alfa (2.0.0) (Branch:  | Commit: 5139d60)
+[17:52:21.508] [os.cpp:21] [info] Added SDL game controllers from "./gamecontrollerdb.txt" (838)
+[17:52:27.828] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[17:52:32.984] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[17:52:56.901] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 49168, cutsceneIndex: 0x0
+[17:53:48.729] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[17:54:15.059] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21600, cutsceneIndex: 0x0
+[17:56:45.057] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 31232, cutsceneIndex: 0x0
+[17:57:28.490] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 33792, cutsceneIndex: 0x0
+[17:58:43.730] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 7168, cutsceneIndex: 0xFFFA
+[17:58:50.891] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 33952, cutsceneIndex: 0x0
+[17:59:21.217] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 43008, cutsceneIndex: 0x0
+[17:59:59.027] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 33808, cutsceneIndex: 0x0
+[18:03:28.569] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 49664, cutsceneIndex: 0x0
+[18:05:32.388] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 33904, cutsceneIndex: 0x0
+[18:05:45.591] [Fast3dWindow.cpp:47] [debug] destruct fast3dwindow
+[18:05:45.909] [Window.cpp:30] [debug] destruct window
+[18:05:45.909] [ResourceManager.cpp:65] [info] destruct ResourceManager
+[2025-08-12 03:12:56.300] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: K:\2Ship-Rena-Alfa-Win64\mm.o2r
+[2025-08-12 03:12:57.099] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive K:\2Ship-Rena-Alfa-Win64\mm.o2r to Archive Manager
+[2025-08-12 03:12:57.383] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: K:\2Ship-Rena-Alfa-Win64\2ship.o2r
+[2025-08-12 03:12:57.405] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive K:\2Ship-Rena-Alfa-Win64\2ship.o2r to Archive Manager
+[2025-08-12 03:12:57.406] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: K:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r
+[2025-08-12 03:12:57.686] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive K:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r to Archive Manager
+[03:12:58.548] [BenPort.cpp:209] [info] Starting 2 Ship 2 Harkinian version Rena Alfa (2.0.0) (Branch:  | Commit: 5139d60)
+[03:12:59.110] [os.cpp:21] [info] Added SDL game controllers from "./gamecontrollerdb.txt" (838)
+[03:13:02.983] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 7168, cutsceneIndex: 0xFFFA
+[03:14:04.923] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[03:14:36.924] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[03:15:41.399] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 49168, cutsceneIndex: 0x0
+[03:16:20.810] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 7168, cutsceneIndex: 0xFFF0
+[03:16:32.340] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 49184, cutsceneIndex: 0x0
+[03:17:24.490] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 7184, cutsceneIndex: 0xFFF8
+[03:17:37.346] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 11264, cutsceneIndex: 0xFFF0
+[03:17:41.541] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 7200, cutsceneIndex: 0xFFF8
+[03:18:04.170] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 49248, cutsceneIndex: 0x0
+[03:18:33.852] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[03:18:56.493] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21600, cutsceneIndex: 0x0
+[03:19:56.167] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21504, cutsceneIndex: 0xFFF2
+[03:20:50.742] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21536, cutsceneIndex: 0xFFF2
+[03:21:04.778] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21520, cutsceneIndex: 0xFFF2
+[03:21:20.074] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 50176, cutsceneIndex: 0xFFF1
+[03:21:32.668] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21728, cutsceneIndex: 0x0
+[03:21:49.060] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 31232, cutsceneIndex: 0x0
+[03:22:14.467] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 33792, cutsceneIndex: 0x0
+[03:23:09.385] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 1024, cutsceneIndex: 0x0
+[03:23:12.941] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 33872, cutsceneIndex: 0x0
+[03:23:25.429] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 49664, cutsceneIndex: 0x0
+[03:24:08.687] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 33904, cutsceneIndex: 0x0
+[03:24:28.431] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 1024, cutsceneIndex: 0x0
+[03:24:56.900] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 33872, cutsceneIndex: 0x0
+[03:25:07.292] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 49664, cutsceneIndex: 0x0
+[03:25:56.934] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 33904, cutsceneIndex: 0x0
+[03:26:18.743] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 1024, cutsceneIndex: 0x0
+[03:26:35.142] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 33872, cutsceneIndex: 0x0
+[03:26:49.267] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 49664, cutsceneIndex: 0x0
+[03:27:59.902] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 33904, cutsceneIndex: 0x0
+[03:28:41.747] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 43008, cutsceneIndex: 0x0
+[03:28:56.869] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 33888, cutsceneIndex: 0x0
+[03:31:04.058] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 43024, cutsceneIndex: 0x0
+[03:31:26.216] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 33808, cutsceneIndex: 0x0
+[03:33:29.042] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 20480, cutsceneIndex: 0x0
+[03:34:27.912] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 20496, cutsceneIndex: 0x0
+[03:34:43.120] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 30208, cutsceneIndex: 0x0
+[03:35:14.603] [Fast3dWindow.cpp:47] [debug] destruct fast3dwindow
+[03:35:14.864] [Window.cpp:30] [debug] destruct window
+[03:35:14.865] [ResourceManager.cpp:65] [info] destruct ResourceManager
+[2025-08-27 18:43:21.548] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\mm.o2r
+[2025-08-27 18:43:22.072] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\mm.o2r to Archive Manager
+[2025-08-27 18:43:22.113] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\2ship.o2r
+[2025-08-27 18:43:22.287] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\2ship.o2r to Archive Manager
+[2025-08-27 18:43:22.288] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r
+[2025-08-27 18:43:22.560] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r to Archive Manager
+[18:43:22.808] [BenPort.cpp:209] [info] Starting 2 Ship 2 Harkinian version Rena Alfa (2.0.0) (Branch:  | Commit: 5139d60)
+[18:43:23.474] [os.cpp:21] [info] Added SDL game controllers from "./gamecontrollerdb.txt" (838)
+[18:43:43.508] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[18:44:36.837] [Fast3dWindow.cpp:47] [debug] destruct fast3dwindow
+[18:44:36.964] [Window.cpp:30] [debug] destruct window
+[18:44:36.965] [ResourceManager.cpp:65] [info] destruct ResourceManager
+[2025-08-27 18:44:40.583] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\mm.o2r
+[2025-08-27 18:44:41.065] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\mm.o2r to Archive Manager
+[2025-08-27 18:44:41.105] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\2ship.o2r
+[2025-08-27 18:44:41.113] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\2ship.o2r to Archive Manager
+[2025-08-27 18:44:41.113] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r
+[2025-08-27 18:44:41.201] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r to Archive Manager
+[18:44:41.335] [BenPort.cpp:209] [info] Starting 2 Ship 2 Harkinian version Rena Alfa (2.0.0) (Branch:  | Commit: 5139d60)
+[18:44:41.595] [os.cpp:21] [info] Added SDL game controllers from "./gamecontrollerdb.txt" (838)
+[18:44:50.533] [Fast3dWindow.cpp:47] [debug] destruct fast3dwindow
+[18:44:50.627] [Window.cpp:30] [debug] destruct window
+[18:44:50.627] [ResourceManager.cpp:65] [info] destruct ResourceManager
+[2025-08-30 05:03:46.672] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\mm.o2r
+[2025-08-30 05:03:47.106] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\mm.o2r to Archive Manager
+[2025-08-30 05:03:47.145] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\2ship.o2r
+[2025-08-30 05:03:47.205] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\2ship.o2r to Archive Manager
+[2025-08-30 05:03:47.206] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r
+[2025-08-30 05:03:47.362] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r to Archive Manager
+[05:03:47.633] [BenPort.cpp:209] [info] Starting 2 Ship 2 Harkinian version Rena Alfa (2.0.0) (Branch:  | Commit: 5139d60)
+[05:03:47.975] [os.cpp:21] [info] Added SDL game controllers from "./gamecontrollerdb.txt" (838)
+[05:04:10.633] [Fast3dWindow.cpp:47] [debug] destruct fast3dwindow
+[05:04:10.761] [Window.cpp:30] [debug] destruct window
+[05:04:10.761] [ResourceManager.cpp:65] [info] destruct ResourceManager
+[2026-02-19 04:19:20.218] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\mm.o2r
+[2026-02-19 04:19:20.714] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\mm.o2r to Archive Manager
+[2026-02-19 04:19:20.752] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\2ship.o2r
+[2026-02-19 04:19:20.810] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\2ship.o2r to Archive Manager
+[2026-02-19 04:19:20.811] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r
+[2026-02-19 04:19:21.017] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r to Archive Manager
+[04:19:22.330] [BenPort.cpp:209] [info] Starting 2 Ship 2 Harkinian version Rena Alfa (2.0.0) (Branch:  | Commit: 5139d60)
+[04:19:23.340] [os.cpp:21] [info] Added SDL game controllers from "./gamecontrollerdb.txt" (838)
+[04:19:33.395] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[04:28:22.707] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[04:29:20.075] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21600, cutsceneIndex: 0x0
+[04:29:58.226] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 31232, cutsceneIndex: 0x0
+[04:30:24.535] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 33792, cutsceneIndex: 0x0
+[04:30:41.516] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 43008, cutsceneIndex: 0x0
+[04:30:51.277] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 33888, cutsceneIndex: 0x0
+[04:32:16.013] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 20480, cutsceneIndex: 0x0
+[04:32:50.747] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 20496, cutsceneIndex: 0x0
+[04:33:30.331] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 20496, cutsceneIndex: 0x0
+[04:34:09.483] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 20496, cutsceneIndex: 0x0
+[04:34:49.266] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 20496, cutsceneIndex: 0x0
+[04:36:48.536] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 5312, cutsceneIndex: 0x0
+[04:38:05.688] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 20624, cutsceneIndex: 0x0
+[04:41:15.875] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 20496, cutsceneIndex: 0x0
+[04:42:50.311] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 20496, cutsceneIndex: 0x0
+[04:45:31.215] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 30224, cutsceneIndex: 0x0
+[04:45:49.348] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 20496, cutsceneIndex: 0x0
+[04:46:09.665] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 33856, cutsceneIndex: 0x0
+[04:47:17.167] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 34304, cutsceneIndex: 0x0
+[04:49:30.037] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 34304, cutsceneIndex: 0x0
+[04:50:23.031] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 34304, cutsceneIndex: 0x0
+[04:52:30.324] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 12288, cutsceneIndex: 0x0
+[17:05:13.414] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 7168, cutsceneIndex: 0xFFF7
+[17:05:29.665] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[17:05:32.387] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[17:06:42.421] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 34368, cutsceneIndex: 0x0
+[17:08:33.303] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 12288, cutsceneIndex: 0x0
+[17:29:33.682] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 12288, cutsceneIndex: 0x0
+[17:38:17.845] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 12288, cutsceneIndex: 0x0
+[17:40:17.064] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 14336, cutsceneIndex: 0x0
+[17:48:29.909] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 52224, cutsceneIndex: 0x0
+[17:50:42.402] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 34304, cutsceneIndex: 0xFFF0
+[17:51:08.796] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 12304, cutsceneIndex: 0x0
+[17:54:12.100] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 34352, cutsceneIndex: 0xFFF1
+[17:54:20.649] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 3104, cutsceneIndex: 0x0
+[17:54:39.460] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 20480, cutsceneIndex: 0x0
+[17:55:03.152] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 30208, cutsceneIndex: 0x0
+[17:55:42.336] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 30240, cutsceneIndex: 0x0
+[17:56:17.886] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 30256, cutsceneIndex: 0x0
+[17:56:29.639] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 20512, cutsceneIndex: 0x0
+[17:56:43.206] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 3120, cutsceneIndex: 0x0
+[17:58:09.710] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 31248, cutsceneIndex: 0x0
+[17:59:14.641] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21520, cutsceneIndex: 0x0
+[18:03:27.597] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 12800, cutsceneIndex: 0x0
+[03:33:23.046] [Fast3dWindow.cpp:47] [debug] destruct fast3dwindow
+[03:33:25.388] [Window.cpp:30] [debug] destruct window
+[03:33:25.533] [ResourceManager.cpp:65] [info] destruct ResourceManager
+[2026-02-20 22:36:05.759] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\mm.o2r
+[2026-02-20 22:36:06.362] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\mm.o2r to Archive Manager
+[2026-02-20 22:36:06.413] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\2ship.o2r
+[2026-02-20 22:36:06.422] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\2ship.o2r to Archive Manager
+[2026-02-20 22:36:06.423] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r
+[2026-02-20 22:36:06.556] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r to Archive Manager
+[22:36:06.902] [BenPort.cpp:209] [info] Starting 2 Ship 2 Harkinian version Rena Alfa (2.0.0) (Branch:  | Commit: 5139d60)
+[22:36:07.222] [os.cpp:21] [info] Added SDL game controllers from "./gamecontrollerdb.txt" (838)
+[22:36:09.913] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 7168, cutsceneIndex: 0xFFFA
+[22:36:44.958] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0xFFF2
+[22:36:51.476] [Fast3dWindow.cpp:47] [debug] destruct fast3dwindow
+[22:36:51.770] [Window.cpp:30] [debug] destruct window
+[22:36:51.770] [ResourceManager.cpp:65] [info] destruct ResourceManager
+[2026-02-20 22:36:05.705] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\mm.o2r
+[2026-02-20 22:36:06.319] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\mm.o2r to Archive Manager
+[2026-02-20 22:36:06.361] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\2ship.o2r
+[2026-02-20 22:36:06.368] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\2ship.o2r to Archive Manager
+[2026-02-20 22:36:06.369] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r
+[2026-02-20 22:36:06.477] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r to Archive Manager
+[22:36:06.628] [BenPort.cpp:209] [info] Starting 2 Ship 2 Harkinian version Rena Alfa (2.0.0) (Branch:  | Commit: 5139d60)
+[22:36:07.002] [os.cpp:21] [info] Added SDL game controllers from "./gamecontrollerdb.txt" (838)
+[22:36:09.113] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 7168, cutsceneIndex: 0xFFFA
+[22:37:00.768] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[22:37:28.415] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21600, cutsceneIndex: 0x0
+[22:40:22.236] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 12800, cutsceneIndex: 0x0
+[22:42:07.701] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21552, cutsceneIndex: 0x0
+[22:43:19.690] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21504, cutsceneIndex: 0x0
+[22:46:15.961] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21504, cutsceneIndex: 0x0
+[22:49:09.331] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 54784, cutsceneIndex: 0x0
+[22:49:30.081] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 53840, cutsceneIndex: 0x0
+[22:49:46.281] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55328, cutsceneIndex: 0x0
+[22:49:55.882] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 54816, cutsceneIndex: 0x0
+[22:49:59.899] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55360, cutsceneIndex: 0x0
+[22:50:07.832] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 54304, cutsceneIndex: 0x0
+[22:50:24.233] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21504, cutsceneIndex: 0x0
+[22:52:54.853] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 54784, cutsceneIndex: 0x0
+[22:53:02.703] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55360, cutsceneIndex: 0x0
+[22:53:10.236] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 54304, cutsceneIndex: 0x0
+[22:54:17.054] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 51712, cutsceneIndex: 0x0
+[22:55:14.339] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 54368, cutsceneIndex: 0x0
+[23:42:21.964] [Fast3dWindow.cpp:47] [debug] destruct fast3dwindow
+[23:42:22.727] [Window.cpp:30] [debug] destruct window
+[23:42:22.761] [ResourceManager.cpp:65] [info] destruct ResourceManager
+[2026-02-21 00:22:53.912] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\mm.o2r
+[2026-02-21 00:22:55.837] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\mm.o2r to Archive Manager
+[2026-02-21 00:22:56.050] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\2ship.o2r
+[2026-02-21 00:22:56.172] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\2ship.o2r to Archive Manager
+[2026-02-21 00:22:56.173] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r
+[2026-02-21 00:22:56.499] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r to Archive Manager
+[00:22:56.816] [BenPort.cpp:209] [info] Starting 2 Ship 2 Harkinian version Rena Alfa (2.0.0) (Branch:  | Commit: 5139d60)
+[00:22:57.290] [os.cpp:21] [info] Added SDL game controllers from "./gamecontrollerdb.txt" (838)
+[00:23:00.357] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 7168, cutsceneIndex: 0xFFFA
+[00:23:22.292] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[00:23:41.858] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21600, cutsceneIndex: 0x0
+[00:36:39.541] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21504, cutsceneIndex: 0x0
+[01:53:31.091] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 31232, cutsceneIndex: 0x0
+[01:53:36.140] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21520, cutsceneIndex: 0x0
+[01:55:41.376] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21504, cutsceneIndex: 0x0
+[01:56:06.327] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 12800, cutsceneIndex: 0x0
+[01:57:09.440] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 39520, cutsceneIndex: 0x0
+[01:57:39.246] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 20992, cutsceneIndex: 0x0
+[01:57:49.346] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 39440, cutsceneIndex: 0x0
+[01:58:54.014] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 45056, cutsceneIndex: 0x0
+[01:59:13.464] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 39488, cutsceneIndex: 0x0
+[01:59:44.298] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 46080, cutsceneIndex: 0x0
+[02:01:56.451] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 37888, cutsceneIndex: 0x0
+[03:15:52.962] [Fast3dWindow.cpp:47] [debug] destruct fast3dwindow
+[03:15:53.097] [Window.cpp:30] [debug] destruct window
+[03:15:53.097] [ResourceManager.cpp:65] [info] destruct ResourceManager
+[2026-07-28 05:12:55.786] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\mm.o2r
+[2026-07-28 05:12:56.407] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\mm.o2r to Archive Manager
+[2026-07-28 05:12:56.452] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\2ship.o2r
+[2026-07-28 05:12:56.576] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\2ship.o2r to Archive Manager
+[2026-07-28 05:12:56.576] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:232] [info] Reading archive: D:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r
+[2026-07-28 05:12:56.836] [D:\a\2ship2harkinian\2ship2harkinian\libultraship\src\resource\archive\ArchiveManager.cpp:264] [info] Adding Archive D:\2Ship-Rena-Alfa-Win64\mods\MM_Reloaded_v11.0.0_HD.o2r to Archive Manager
+[05:12:57.520] [BenPort.cpp:209] [info] Starting 2 Ship 2 Harkinian version Rena Alfa (2.0.0) (Branch:  | Commit: 5139d60)
+[05:12:59.186] [os.cpp:21] [info] Added SDL game controllers from "./gamecontrollerdb.txt" (838)
+[05:13:05.529] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 7168, cutsceneIndex: 0xFFFA
+[05:13:31.586] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0xFFF2
+[05:14:30.758] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[05:15:24.156] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 55296, cutsceneIndex: 0x0
+[05:16:08.107] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 21600, cutsceneIndex: 0x0
+[05:18:13.960] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 12800, cutsceneIndex: 0x0
+[05:18:50.990] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 39520, cutsceneIndex: 0x0
+[05:19:03.794] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 20992, cutsceneIndex: 0x0
+[05:20:43.747] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 39440, cutsceneIndex: 0x0
+[05:21:21.797] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 45056, cutsceneIndex: 0x0
+[05:21:47.631] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 39488, cutsceneIndex: 0x0
+[05:22:39.215] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 46080, cutsceneIndex: 0x0
+[05:23:09.966] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 37888, cutsceneIndex: 0x0
+[05:25:08.352] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 46096, cutsceneIndex: 0x0
+[05:25:12.618] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 37888, cutsceneIndex: 0x0
+[05:25:39.386] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 37888, cutsceneIndex: 0x0
+[05:26:39.937] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 37888, cutsceneIndex: 0x0
+[05:28:22.890] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 46096, cutsceneIndex: 0x0
+[05:28:27.206] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 37888, cutsceneIndex: 0x0
+[05:29:27.541] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 37888, cutsceneIndex: 0x0
+[05:29:30.341] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 46096, cutsceneIndex: 0x0
+[05:30:02.458] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 39456, cutsceneIndex: 0x0
+[05:30:22.408] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 12816, cutsceneIndex: 0x0
+[05:30:26.759] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 39520, cutsceneIndex: 0x0
+[05:30:52.259] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 45056, cutsceneIndex: 0x0
+[05:31:21.710] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 39488, cutsceneIndex: 0x0
+[05:32:10.761] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 46080, cutsceneIndex: 0x0
+[05:32:39.078] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 37888, cutsceneIndex: 0x0
+[05:34:01.613] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 5376, cutsceneIndex: 0x0
+[05:35:28.515] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 37936, cutsceneIndex: 0x0
+[05:36:47.800] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 46096, cutsceneIndex: 0x0
+[05:37:29.367] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 39456, cutsceneIndex: 0x0
+[05:39:43.321] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 38400, cutsceneIndex: 0x0
+[05:43:09.475] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 7168, cutsceneIndex: 0xFFF4
+[05:43:39.642] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 38416, cutsceneIndex: 0x0
+[05:45:35.478] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 39472, cutsceneIndex: 0x0
+[05:45:51.378] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 38400, cutsceneIndex: 0x0
+[13:48:26.810] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 39472, cutsceneIndex: 0x0
+[13:49:23.764] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 38400, cutsceneIndex: 0x0
+[13:49:35.961] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 39472, cutsceneIndex: 0x0
+[13:49:43.494] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 39424, cutsceneIndex: 0x0
+[13:49:52.367] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 39424, cutsceneIndex: 0x0
+[13:50:16.170] [z_demo.c:1584] [info] Cutscene_HandleConditionalTriggers: entrance: 20992, cutsceneIndex: 0x0
+[13:51:00.630] [Fast3dWindow.cpp:47] [debug] destruct fast3dwindow
+[13:51:01.905] [Window.cpp:30] [debug] destruct window
+[13:51:02.227] [ResourceManager.cpp:65] [info] destruct ResourceManager
