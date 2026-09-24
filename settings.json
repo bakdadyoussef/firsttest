@@ -1,0 +1,33 @@
+{
+    "cSpell.words": [
+        "BUILDBOT",
+        "Domito",
+        "dshidmini",
+        "DUALSHOCK",
+        "Eleccelerator",
+        "ERRORLEVEL",
+        "EXTN",
+        "Guids",
+        "hidapi",
+        "makecab",
+        "minidriver",
+        "mshidumdf",
+        "opentelemetry",
+        "OTEL",
+        "otlp",
+        "proxied",
+        "proxying",
+        "ribbotson",
+        "SCPLIB",
+        "Shibari",
+        "SIXAXIS",
+        "spdlog",
+        "struct",
+        "Ultralightweight",
+        "vcpkg",
+        "vpatch",
+        "Wiimote",
+        "winreg",
+        "XUSB"
+    ]
+}
