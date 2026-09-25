@@ -1,0 +1,11 @@
+{
+  "cap_file": "D:/WRTZNE/Carpeta nueva/handshake_fh5aa168_88-66-9F-AF-1C-27_2005-01-01T03-44-49.cap",
+  "wordlist_file": "",
+  "mode": "mask",
+  "mask": "wlan?h?h?h?h?h?h",
+  "current_password": "wlan00270f",
+  "processed_count": 10000,
+  "start_time": "2025-11-08T22:25:14.806499",
+  "cpu_mode": "100%",
+  "hardware_mode": "cpu"
+}
