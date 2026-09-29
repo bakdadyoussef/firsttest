@@ -1,0 +1,1 @@
+ifconfig > new.txt
