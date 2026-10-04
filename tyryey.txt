@@ -1,0 +1,19 @@
+#include <QApplication>
+include  <QWidget>
+#include <QPushButton>
+#include <QGridLayout>
+#include <QLineEdit>
+#include <QString>
+class calculator : public QWidgte() {
+Q_OBJECT
+public:
+Calculator(QWidget *parent =null ptr) : QWidget(parent) ;
+setWIndowTitle("")
+setFixedSize(600500)
+display = new QLineEDit(this)
+display->setReadOnly(true)
+display->setALignment (Qt ;AlignRight)
+display->setText("0")
+display->setStylesheet('font size 20 px;padding:18px')
+QGridLayout *layout = new QGridLayout(thius)
+layout =aaddnewWIdget(display0.0.1.4)
