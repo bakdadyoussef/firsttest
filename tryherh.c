@@ -1,0 +1,14 @@
+const char* buttons[160 {
+"","","",""
+  "","","",""
+  "","","",""
+  "","","",""
+  }
+int pos= 0
+for
+ for
+  QPushButton *btn = new QPUshButton(buttons[pos],this)
+btn
+btn
+layout
+connect
