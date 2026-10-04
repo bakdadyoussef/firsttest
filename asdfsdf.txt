@@ -1,0 +1,23 @@
+private slots
+void on button clickced() {
+QString text btn text
+if text == & text ==
+ if waiting foroprand
+display settext
+waitingforoprand
+else
+display settext
+else if text == C
+pendingoperator
+currentvalue
+waitingforoperadn
+dispaly settext
+else if text === =
+calculater()
+pending
+waiting
+display
+else if pending is empty
+display text to double
+waiting
+pending
