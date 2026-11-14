@@ -1,92 +1,43 @@
-# NumPad Mouse Control
+# AI-Locale — Local AI Chatbot & Document Q&A Interface
 
-A Windows 10/11 accessibility utility that turns the numeric keypad into a configurable mouse controller. It includes a PySide6 GUI, global keypad interception while mouse mode is enabled, pointer movement, clicking, dragging, scrolling, profiles, JSON settings, and system-tray operation.
+A lightweight, modern Python GUI designed specifically to run local AI models on low-spec hardware (**4 GB RAM**, **Intel i3 3rd gen**, **HDD**).
 
-> **Important:** This is a first runnable implementation of the project plan. The Windows low-level keyboard hook and input injection are Windows-specific and cannot be fully integration-tested from Linux. Test the app with mouse mode disabled first, then enable it while you have a working alternative way to control the PC (for example, Windows on-screen keyboard or a borrowed mouse). The app starts with interception disabled by default.
+---
 
-## Features
+## 🚀 How to Launch
 
-- Windows low-level keyboard hook using `ctypes` (no third-party keyboard-hook package).
-- Suppresses recognized physical numeric-keypad keys only while mouse mode is active.
-- Eight-direction movement, acceleration, speed limit, precision mode, and diagonal normalization.
-- Left/right/middle clicks, hold-to-drag, vertical and horizontal scrolling.
-- Editable key mappings and Balanced / Precision / Fast profiles.
-- Persistent, validated JSON configuration in the user's application-data directory.
-- System-tray operation, activation shortcut, emergency stop, diagnostics, and cleanup on shutdown.
-- Starts with mouse mode disabled by default.
-
-## Requirements
-
-- Windows 10 or Windows 11 (64-bit recommended)
-- Python 3.10+ supported by your selected PySide6 release
-- PySide6
-
-## Run from source
-
-Open PowerShell in this folder:
-
-```powershell
-py -m venv .venv
-.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-python main.py
+Simply double-click:
+```bat
+launch.bat
+```
+Or run from your terminal:
+```bash
+python app/main.py
 ```
 
-If PowerShell blocks activation, run `.venv\Scripts\python.exe main.py` after installing dependencies with `.venv\Scripts\python.exe -m pip install -r requirements.txt`.
+---
 
-## Build a Windows executable
+## ✨ Features Built
 
-```powershell
-.venv\Scripts\pyinstaller.exe --noconfirm --clean --windowed --name NumPadMouse main.py
-```
+1. **Subprocess Engine (`llama-cli.exe`)**:
+   - Zero-RAM overhead from Python (the model runs inside llama.cpp, not inside Python).
+   - Real-time token streaming into the chat window.
+   - Graceful start / stop / restart controls.
 
-The executable will be in `dist\NumPadMouse\` (or `dist\NumPadMouse.exe`, depending on PyInstaller mode/version). The app does not require administrator privileges for normal use. Some elevated applications and secure Windows screens may not accept injected input from a non-elevated process.
+2. **Customizable Settings Panel**:
+   - **Model Selector**: Auto-detects all `.gguf` models in the `models/` directory (Qwen 1.5B and Qwen 3.5 4B).
+   - **Hardware Presets**:
+     - `Safe (1.5B, 512 ctx)`: Minimal RAM, fast startup, zero swapping.
+     - `Balanced (1.5B, 2048 ctx)`: Larger context for longer conversations.
+     - `Maximum (4B, 512 ctx)`: High intelligence model, safe memory configuration.
+     - `4B Extended (4B, 1024 ctx)`: Extended context for 4B model.
+   - **Performance Tuning**: Adjust Context Size, Batch Size, Micro-Batch Size, and CPU Threads (1-4).
+   - **KV Cache Quantization**: Select `q4_0` / `q8_0` / `f16` to halve KV cache memory usage on your 4 GB RAM.
+   - **Sampling Parameters**: Live sliders for Temperature, Top-K, Top-P, Min-P, and Repeat Penalty.
+   - **System Prompt**: Edit and persist custom system personas.
+   - **Live RAM Estimator**: Displays predicted resident RAM consumption and warns if swapping risk is high.
 
-## Default keypad map
-
-| Key | Action |
-|---|---|
-| KP 7 / 8 / 9 | Up-left / up / up-right |
-| KP 4 / 5 / 6 | Left / stop / right |
-| KP 1 / 2 / 3 | Down-left / down / down-right |
-| KP 0 | Hold left mouse button (drag) |
-| KP Decimal | Left click |
-| KP Divide | Right click |
-| KP Multiply | Middle click |
-| KP Add / Subtract | Scroll up / down |
-
-While mouse mode is active, recognized keypad keys are suppressed even if a key is mapped to `unassigned`. Disable mouse mode to return the keypad to ordinary input. The top-row number keys are not intentionally intercepted.
-
-## Controls
-
-- **F8**: default global toggle shortcut (configurable to F6–F11 in Background settings).
-- **Ctrl+Alt+Esc**: default emergency stop (configurable to Ctrl+Alt+F10 or Ctrl+Alt+F11); stops movement, releases controller-held buttons, and disables mouse mode.
-- Tray menu: enable/disable, open settings, emergency stop, exit.
-
-The emergency shortcut is checked by the low-level hook and is not guaranteed to work on secure desktops or if Windows has stopped delivering hook events. Always test it before relying on it.
-
-## Configuration
-
-Configuration is stored in the current user's application-configuration directory under `config.json`. The GUI has a button to open the configuration folder. The application validates settings and falls back to a last-known-good backup or safe defaults when a file is invalid. Startup-at-login is managed per-user through the Windows Run registry key; it does not require administrator privileges.
-
-## Notes and known limitations
-
-- The Windows hook is implemented with a dedicated thread and Windows message loop. The callback is kept short and does not write files or update widgets directly.
-- Keypad identification uses physical scan-code information and extended-key flags. Keyboard firmware and unusual layouts can vary, so verify the detected keymap on your hardware.
-- The update interval is a target, not a real-time guarantee; Windows scheduling and target applications affect latency.
-- Horizontal wheel behavior varies between applications.
-- The program only releases mouse buttons that its own controller tracks as held.
-- This project intentionally does not collect or log arbitrary keyboard text.
-- No application can guarantee recovery from every process crash, operating-system failure, secure desktop, or hardware problem.
-
-## Development checks
-
-Run the platform-independent tests on any OS:
-
-```powershell
-python -m pip install pytest
-python -m pytest
-```
-
-The low-level hook and SendInput integration must additionally be tested on Windows. On non-Windows systems, the GUI reports that mouse control is unavailable rather than attempting to install a Windows hook. The package was syntax-checked in the build environment, but the native Windows hook and the PySide6 GUI still require runtime testing on a Windows machine.
+3. **File Feeding & Context-Aware Document Q&A**:
+   - Supports 38+ file types: `.txt`, `.md`, `.csv`, `.json`, `.log`, `.py`, `.html`, `.sql`, etc.
+   - **Smart Text Chunker**: Automatically slices long documents into context-sized pieces based on paragraph/sentence boundaries.
+   - **Chunk Navigator**: Browse through document chunks (`◀ Prev` / `Next ▶`) and ask questions tailored to specific chunks.
