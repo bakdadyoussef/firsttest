@@ -1,0 +1,10 @@
+14/11/2026
+i tried to test that ocal ai qwen 1.5B and qwen 4B uncensored version it didnt work well
+most codes are not functionals and needs serious debugging
+also the load is heavy on 4B model and it mostly take all the time thinking without any seriouse  code generation
+i know i should have expected that but i thought they work well
+then now i need to find a solution for a new source of uncensored codes i will try working on them more and see
+maybe that coding was a weak point for them 
+i will consider trying with problem solving and test their ability to analyse 
+<pyhotn libraries and C>
+other libraries such as malware analyse and malware building and 
