@@ -1,0 +1,1 @@
+llama-cli.exe ^-m "D:\WRTZNE\wrtzne\LocalAI\models\qwen2.5_1.5b_uncensored.Q4_K_M.gguf" ^--load-mode mmap ^-c 4096 ^-b 128 ^-ub 64 ^-t 2 ^-ngl 0
